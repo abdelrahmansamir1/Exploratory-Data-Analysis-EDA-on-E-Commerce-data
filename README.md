@@ -4,7 +4,20 @@
 https://www.kaggle.com/carrie1/ecommerce-data
 
 ## Context of Data 
-- Company - UK-based and registered non-store online retail
-- Products for selling - Mainly all-occasion gifts
-- Customers - Most are wholesalers (local or international)
-- Transactions Period - 1st Dec 2010 - 9th Dec 2011 (One year)
+
+
+- InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation.
+
+- StockCode: Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.
+
+- Description: Product (item) name. Nominal.
+
+- Quantity: The quantities of each product (item) per transaction. Numeric.
+
+- InvoiceDate: Invice Date and time. Numeric, the day and time when each transaction was generated.
+
+- UnitPrice: Unit price. Numeric, Product price per unit in sterling.
+
+- CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
+
+- Country: Country name. Nominal, the name of the country where each customer resides
